@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwani Fitness</title>
+</head>
+<link rel="stylesheet" href="css/Style.css">
+<style>
+    body {
+        color: rgb(23, 6, 149);
+        margin: 0px;
+        padding: 0px;
+        background: url('img/abs.jpg');
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 12px;
+    }
+
+    .left img {
+        width: 120px;
+        height: 81px;
+    }
+
+    .right {
+        /* border: 2px solid green; */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 12px;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 3px auto;
+        border-radius: 10px;
+        font-size: m;
+    }
+
+    .btn {
+        margin: 13px;
+        background-color: white;
+        color: black;
+        padding: 4px 20px;
+        border-radius: 8px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .container h1 {
+        text-align: center;
+        color: white;
+    }
+
+    .container button {
+        display: block;
+        width: 23px;
+        margin: auto;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 68px 450px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 30px;
+    }
+
+    .btn:hover {
+        background-color: rgb(103, 103, 103);
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 25px 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .left div {
+        text-align: center;
+        color: white;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo?? -->
+            <img src="img/as.jpg" alt="">
+            <div>GOLU GYM</div>
+
+        </div>
+        <div class="mid">
+            <!-- for navigation bar -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right for buttons -->
+            <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best GYM in meerut</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Contact Number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <buttton class="btn">submit</buttton>
+        </form>
+        </div>
+</body>
+
+</html>
